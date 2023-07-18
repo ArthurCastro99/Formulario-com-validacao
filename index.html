@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Formulário com validação</title>
+  </head>
+  <body>
+    <main class="caixa">
+      <div class="texto-do-conteudo">
+        <h2 class="titulo-info">
+          FICOU COM DÚVIDA? <br />
+          NOS MANDE UMA MENSAGEM!
+        </h2>
+        <p class="texto-info">
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <div class="caixa-do-formulario">
+        <form id="form" class="form" method="GET" action="index.html">
+          <div class="config-conteudo erro erro-off">
+            <input
+              class="valida"
+              id="nome"
+              type="text"
+              name="nomecompleto"
+              placeholder="Nome Completo *"
+            />
+            <div id="erro" class="erro erro-off">Campo obrigatório</div>
+          </div>
+
+          <div class="config-conteudo">
+            <input
+              class="valida"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email *"
+            />
+            <div id="erro" class="erro erro-off">Campo obrigatório</div>
+          </div>
+
+          <div class="config-conteudo">
+            <input
+              class="valida"
+              id="telefone"
+              type="tel"
+              name="telefone"
+              placeholder="Telefone *"
+            />
+            <div id="erro" class="erro erro-off">Campo obrigatório</div>
+          </div>
+
+          <div class="config-conteudo">
+            <textarea
+              class="valida"
+              id="mensagem"
+              type="text"
+              name="mensagem"
+              placeholder="Mensagem *"
+            ></textarea>
+            <div id="erro" class="erro erro-off">Campo obrigatório</div>
+          </div>
+
+          <p class="texto-info">*campos obrigatórios</p>
+          <button onclick="valida()" class="btn">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
