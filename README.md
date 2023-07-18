@@ -10,7 +10,7 @@ O projeto tem objetivo de fazer um formulário com os inputs com validação ou 
 
 ## FeedBack
 
-- O projeto foi muito complicado no começo, já que é minha primeira vez utilizando um código complexos deste nível, é demorei bastante para terminalo pois fiquei preso em uma parte do exercício, mas fazendo pesquisas e assistindo videos acabei achando várias soluções.
+- O projeto foi muito complicado no começo, já que é minha primeira vez utilizando vários código deste nível, é demorei bastante para termina ele pois fiquei preso em uma parte do exercício, mas fazendo pesquisas e assistindo videos acabei achando várias soluções para sair da onde eu estava e conseguir termina ele.
 - Espero que vocês deixem um feedback para que eu possa aprimorar meu conhecimento.
 
 #
